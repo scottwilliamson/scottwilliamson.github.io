@@ -1,0 +1,51 @@
+body {
+//  font-family: 'IM Fell French Canon', serif;
+    font-family: 'IM Fell English', serif;
+    font-size: 2em;
+}
+
+ul {
+    padding: 0px;
+}
+
+p {
+    color: #030A6E;
+}
+
+
+h2 {
+    text-align: center;
+    color: #F20524;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+img {
+    padding: 0px;
+}
+
+.ti {
+    width: 18%;
+}
+
+.wi {
+    width: 28%;
+}
+
+.wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    border: 2px blue solid;
+}
+
+.yt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+}
