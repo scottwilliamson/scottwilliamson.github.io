@@ -1,5 +1,4 @@
 body {
-//  font-family: 'IM Fell French Canon', serif;
     font-family: 'IM Fell English', serif;
     font-size: 2em;
 }
@@ -27,25 +26,49 @@ img {
     padding: 0px;
 }
 
+/* tall image (flag) */
 .ti {
     width: 18%;
 }
 
+/* wide image (flag) */
 .wi {
     width: 28%;
 }
 
+/* facilitate scaling iframe while maintaining proportions */
 .wrapper {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
     border: 2px blue solid;
+    margin-bottom: 20px;
 }
 
+/* facilitate scaling iframe while maintaining proportions */
 .yt {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%; 
     height: 100%;
+}
+
+/* style the home button on each song page */
+.home {
+    margin-top: 20px;
+    background-image: url(images/scottflag.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    text-align: center;
+    color: black;
+    vertical-align: auto;
+    margin: auto;
+    text-decoration: none;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
 }
