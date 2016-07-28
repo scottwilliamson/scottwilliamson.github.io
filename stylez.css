@@ -36,6 +36,10 @@ img {
     width: 28%;
 }
 
+body > a > li {
+    margin-bottom: 2em;
+}
+
 /* facilitate scaling iframe while maintaining proportions */
 .wrapper {
     position: relative;
